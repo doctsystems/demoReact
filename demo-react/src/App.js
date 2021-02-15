@@ -1,15 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-const Person = props => {
-  return (
-    <div>
-      <span>Nombre: {props.nombre}, </span>
-      <span>Apellido: {props.apellido}, </span>
-      <span>Edad: {props.edad},</span>
-    </div>
-  )
-}
+import Person from './components/Person'
 
 function App() {
   return (
