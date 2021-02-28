@@ -9,10 +9,11 @@ const Nav = styled.nav`
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
   .logo {
     padding: 15px 0;
   }
-`
+`;
 
 const Navbar = () => {
   return (
@@ -25,4 +26,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

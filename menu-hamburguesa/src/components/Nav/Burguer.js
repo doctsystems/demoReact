@@ -50,4 +50,4 @@ const Burguer = () => {
   )
 }
 
-export default Burguer
+export default Burguer;
